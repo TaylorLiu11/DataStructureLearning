@@ -51,3 +51,17 @@ let twoSum = function (nums, target) {
 
 console.log(twoSum(nums, 26));
 
+// Teacher's solution
+// var twoSum = function (nums, target) {
+//     let map = {};
+//     let res;
+//     const len = nums.length;
+//     for (let i = 0; i < len; i++) {
+//         res = target - nums[i];
+//         if (map[res] !== undefined) {
+//             return [map[res], i];
+//         } else {
+//             map[nums[i]] = i;
+//         }
+//     }
+// };

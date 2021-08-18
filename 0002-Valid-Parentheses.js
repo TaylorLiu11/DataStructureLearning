@@ -35,3 +35,27 @@ console.log(isValid('{((([()]))'));
 console.log(isValid('{({([()])})}'));
 console.log(isValid("(]"));
 console.log(isValid("([)]"));
+
+// Teacher's solution
+//var isValid = function (s) {
+// let len = s.length;
+
+// let map = {
+//     ")": "(",
+//     "]": "[",
+//     "}": "{",
+// };
+
+// let stack = [];
+// for (let i = 0; i < len; i++) {
+//     let cur = s[i];
+//     if (map[cur] === undefined) {
+//         stack.push(s[i]);
+//     } else if (stack[stack.length - 1] === map[cur]) {
+//         stack.pop();
+//     } else {
+//         return false;
+//     }
+// }
+// return stack.length === 0;
+// };
