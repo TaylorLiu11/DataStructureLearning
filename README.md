@@ -6,7 +6,7 @@
 ### LIFO
 Last in first out
 
-### Stack is used for
+### Stack is Used For
 - Remembering partially completed tasks.
 - Undoing or backtracking from an action.
 
